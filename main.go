@@ -19,7 +19,7 @@ func main() {
 
 	r.GET("/session/find", func(c *gin.Context) {
 		data := ResponseData{
-			Message: "Session found",
+			Message: "Session found!",
 			//URL:     "ws://192.168.0.6:8080",
 			URL: "ws://34.168.132.186:8080",
 		}
